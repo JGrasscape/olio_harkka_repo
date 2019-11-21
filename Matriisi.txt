@@ -1,0 +1,53 @@
+Oliot 
+1 osaa luoda luokasta olion
+- Program.cs, rivi 16
+2 osaa luoda dynaamisen oliokokoelman
+- Program.cs, rivi 166
+3 osaa määritellä oliolle kentät ja metodit
+- kaikki Classes-kansiossa olevat luokat
+4 osaa määritellä näkyvyydet julkisiksi ja yksityisiksi
+- kaikki Classes-kansiossa olevat luokat
+5 osaa määritellä oliolle propertykenttiä
+- kaikki Classes-kansiossa olevat luokat, esim. Player.cs rivi 39
+
+Luokkarakenne 
+1 osaa määritellä luokan, jossa on konstruktori
+- esim. ConsoleWindows.cs, rivi 31
+2 osaa määritellä luokan, jossa on viite toiseen olioon 
+- esim. ConsoleWindows.cs, rivi 14
+3 osaa määritellä luokan, jossa on viite oliokokoelmaan
+- esim. ConsoleWindows.cs, rivi 14
+4 osaa määritellä luokan, joka perii yläluokan 
+- luokka Player perii luokan Character, joka taasen perii luokan Tile
+5 osaa määritellä luokan, jossa hyödynnetään metodin ylikirjoittamista
+- esim. Player.cs, rivi 165
+
+Rajapinnat 
+1 osaa määritellä rajapinnan
+- kansiossa Interface rajapinta IDestroyable.cs
+2 osaa määritellä rajapinnan toteuttavan luokan
+- esim. Tile.cs, rivi 11
+3 osaa hyödyntää polymorfismia rajapinnan avulla
+- metodi Destroy() luokissa Tile, Character ja Player
+4 lähdekoodista on erotettu jokin osa rajapinnan avulla
+- kaikki luokat ovat koottu hakemistoon Classes, rajapinta myös omaan hakemistoonsa
+5 lähdekoodista on erotettu useampi osa rajapintojen avulla
+- kaikki luokat ovat koottu hakemistoon Classes, rajapinta myös omaan hakemistoonsa
+
+Dokumentointi 
+1 lähdekoodi on luettavaa
+2 lähdekoodi on jäsennelty
+3 lähdekoodista on tehty luokkakaavio
+- ClassDiagram1.cd
+4 lähdekoodissa on kommentteja
+5 lähdekoodi on itsekommentoiva
+
+Tallentaminen 
+1 osaa tallentaa tekstiä tiedostoon
+2 osaa ladata tekstiä tiedostosta
+- Programs.cs rivi 180, ConsoleWindow.cs rivi 116
+3 osaa tallentaa oliodatan tiedostoon
+4 osaa ladata oliodatan tiedostosta
+- Program.cs rivi 199
+5 osaa hyödyntää oliodatan sarjallistamista
+- Player.cs rivi 144
