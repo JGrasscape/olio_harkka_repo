@@ -10,6 +10,7 @@ namespace Olio_harjoitus
     {
         static void Main(string[] args)
         {
+
             // Onko kyseessä uusi pelihahmo vai aikaisemmin pelattu
             bool newPlayer = true, mainMenu = true;
             string playerName = "";
