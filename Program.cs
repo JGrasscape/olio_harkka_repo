@@ -13,7 +13,7 @@ namespace Olio_harjoitus
 
             // Onko kyseessä uusi pelihahmo vai aikaisemmin pelattu
             bool newPlayer = true, mainMenu = true;
-            string playerName = ""; 
+            string playerName = "";
             Player player = new Player();
             int playerX = 10, playerY = 10;
 
